@@ -38,9 +38,37 @@ Install the required packages by running:
 
 ```bash
 pip install tensorflow matplotlib scikit-learn
+```
+
 
 #Place your dataset in the following structure:
 Brain_Stroke_CT-SCAN_image/
 ├── Train/
 ├── Validation/
 └── Test/
+
+Model Training
+
+The model is trained using:
+
+- (Transfer learning with DenseNet201)
+-Binary cross-entropy loss
+Adam optimizer
+Fine-Tuning
+After initial training, the model fine-tunes by unfreezing some layers of DenseNet201.
+
+Evaluation
+
+The model is evaluated using:
+
+Accuracy
+Precision, Recall, F1-score
+Loss plots
+Results
+
+Test Accuracy: Achieved an accuracy of ~90% on the test dataset.
+F1 Score: Evaluated to highlight the balance between precision and recall.
+Acknowledgments
+
+This project is based on TensorFlow's transfer learning framework.
+Dataset used for training and testing the model is sourced from your provided directory.
