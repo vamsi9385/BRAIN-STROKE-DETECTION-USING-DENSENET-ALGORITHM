@@ -3,7 +3,7 @@ his project implements a deep learning model for classifying brain CT scans as e
 
 Table of Contents
 
-Project Overview
+-Project Overview
 Dataset Structure
 Requirements
 Installation
