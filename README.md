@@ -52,10 +52,10 @@ Model Training
 The model is trained using:
 
 - Transfer learning with DenseNet201
--Binary cross-entropy loss
--Adam optimizer
--Fine-Tuning
--After initial training, the model fine-tunes by unfreezing some layers of DenseNet201.
+- Binary cross-entropy loss
+- Adam optimizer
+- Fine-Tuning
+- After initial training, the model fine-tunes by unfreezing some layers of DenseNet201.
 
 Evaluation
 
