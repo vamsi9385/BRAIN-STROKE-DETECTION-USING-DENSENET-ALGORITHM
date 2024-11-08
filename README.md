@@ -42,10 +42,10 @@ pip install tensorflow matplotlib scikit-learn
 
 
 #Place your dataset in the following structure:
-Brain_Stroke_CT-SCAN_image/
-├── Train/
-├── Validation/
-└── Test/
+-Brain_Stroke_CT-SCAN_image/
+  ├── Train/
+  ├── Validation/
+  └── Test/
 
 Model Training
 
